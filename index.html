@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Device Checker</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body class="w3-container w3-light-grey">
+
+  <div class="w3-card w3-white w3-padding w3-margin-top">
+    <h2 class="w3-text-purple">Compromised Androids Check Tool</h2>
+    <p>Enter the device name or model below to check if it has been listed as a compromised model. This list is mostly
+      TV Boxes but do include other devices like tablets and TV projectors as well</p>
+    <p>Disclaimer: This tool a best effort to provide a known list of models that are known to be compromised by the
+      BADBOX malware.</p>
+    <p>For more information, please read <a
+        href="https://eff.org/deeplinks/2023/12/sketchy-and-dangerous-android-childrens-tablets-and-tv-set-top-boxes-2023-review"
+        target="_blank">here</a>.
+    </p>
+    <form id="deviceForm" class="w3-container">
+      <label for="deviceInput">Enter device name/model:</label>
+      <input class="w3-input w3-border w3-margin-top" type="text" id="deviceInput" required>
+      <button class="w3-button w3-purple w3-margin-top" type="submit">Check</button>
+    </form>
+    <div class="w3-padding result" id="result"></div>
+  </div>
+
+  <script src="fuse.min.js"></script>
+  <script src="content.js"></script>
+
+</body>
+
+</html>
