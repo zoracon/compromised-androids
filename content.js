@@ -3,10 +3,7 @@ const targetText = [
   'Notepad_Go_803',
   'NotePad 101B',
   'kidzpad',
-  'KidzPad',
-  'KIDZPAD',
   'Dragontouch',
-  'Dragon Touch',
   'T95',
   'MXQ',
   'M8S',
@@ -15,7 +12,6 @@ const targetText = [
   'MXV',
   'MxV',
   'MXIII',
-  'MxIII',
   'TV987',
   "X96Q_Max_P",
   "Q96L2",
@@ -74,6 +70,7 @@ const targetText = [
   "X88",
   "X98K",
   "TXCZ"
+  "Super box"
 ];
 
 let fuse;
