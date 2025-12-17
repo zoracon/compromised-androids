@@ -69,7 +69,7 @@ const targetText = [
   "H6",
   "X88",
   "X98K",
-  "TXCZ"
+  "TXCZ",
   "Super box"
 ];
 
