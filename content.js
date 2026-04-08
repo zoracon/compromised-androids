@@ -75,7 +75,7 @@ const targetText = [
   "X88",
   "X98K",
   "TXCZ",
-  "Super box"
+  "Super box",
   "Superbox",
   "Vseebox"
 ];
