@@ -76,6 +76,8 @@ const targetText = [
   "X98K",
   "TXCZ",
   "Super box"
+  "Superbox",
+  "Vseebox"
 ];
 
 let fuse;
