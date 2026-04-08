@@ -1,3 +1,8 @@
+// sources:
+// https://www.humansecurity.com/learn/blog/satori-threat-intelligence-disruption-badbox-2-0/
+// krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/
+// https://www.eff.org/deeplinks/2023/05/android-tv-boxes-sold-amazon-come-pre-loaded-malware
+// https://www.eff.org/deeplinks/2023/11/low-budget-should-not-mean-high-risk-kids-tablet-came-preloaded-sketchyware
 const targetText = [
   'Y88X',
   'Notepad_Go_803',
